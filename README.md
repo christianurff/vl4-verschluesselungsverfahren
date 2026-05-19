@@ -726,124 +726,21 @@ Schon Grundschüler:innen können verstehen:
 4. **Eigene Geheimsprache** — Lerngruppen entwickeln ein Verfahren und tauschen Botschaften aus.
 5. **Sicheres Passwort-Workshop** — was macht ein Passwort stark?
 
-## Reflexionsfragen
-
-> Bearbeite diese Fragen in deinem **Lerntagebuch**:
->
-> * Welche Erkenntnisse nimmst du aus der Beschäftigung mit Verschlüsselung für **didaktische Potenziale** im Mathematikunterricht mit?
-> * Wo siehst du **Möglichkeiten** für den Einsatz in der Grundschule?
-> * Wo siehst du **Grenzen**?
-
----
-
-# 11. Arbeitsblatt & Gruppenaufträge
-
-![Arbeitsblatt](slides/folie-31.png)
-
-## Übungsaufgaben für die nächsten zwei Wochen
-
-> 💡 **Wichtig:** In der kommenden Woche **entfällt** die Vorlesung wegen der Tagung „Macht Mathe". Du hast also **zwei Wochen** Zeit. Du darfst gerne an der Tagung teilnehmen: <https://www.ph-weingarten.de/de/events/macht-mathe>
-
-### Aufgabe 1 — Caesar entschlüsseln (Häufigkeitsanalyse)
-
-Entschlüssele die folgende Botschaft. Erstelle eine Häufigkeitstabelle der Buchstaben und vergleiche sie mit den Häufigkeiten der deutschen Sprache. Dokumentiere im Lerntagebuch, wie du vorgegangen bist.
-
-```text
-BJSS XNJ INJXJS LJMJNRYJCY LJPSFHPY MFGJS, IFSS MFGJS XNJ AJWXYFSIJS BNJ
-JNSJ MFZKNLPJNYXFSFQDXJ GJN JNSKFHMJS HTINJWZSLXAJWKFMWJS
-KZSPYNTSNJWY.
-```
-
-### Aufgabe 2 — Vigenère-Verschlüsselung selbst erstellen
-
-Verschlüssele eine aufmunternde Botschaft (**mind. 120 Zeichen**, deutsch) für deine Lerngruppe mit dem Vigenère-Verfahren. Übermittele den Schlüssel auf einem **sicheren Weg**. Dokumentiere dein Vorgehen.
-
-### Aufgabe 3 — Eigenes Substitutionsverfahren
-
-Verschlüssele eine wichtige Botschaft (**mind. 240 Zeichen**) mit einer **selbst entwickelten Substitutionschiffre**. Deine Lerngruppe soll versuchen, sie ohne Kenntnis des Verfahrens zu knacken.
-
-### Aufgabe 4 — Lerngruppe: Entschlüsseln
-
-Trefft euch in der Lerngruppe und entschlüsselt **mindestens eine** Botschaft aus Aufgabe 2 oder 3 von Kommiliton:innen. Beschreibt das Vorgehen — auch wenn die Entschlüsselung nicht gelingt.
-
----
-
-## Aufgabe 5 — Gruppenauftrag (eine Option wählen)
-
-> Wählt in eurer Gruppe **eine** der folgenden Optionen und gestaltet ein **anschauliches Ausstellungsstück** (z. B. DIN-A4-Plakat) für einen Museumsrundgang in der nächsten Vorlesung.
-
-### Option 1 – Historische Geheimschriften
-
-* Recherchiere historische Beispiele (Enigma, Skytale, Freimaurer-Code, …).
-* Erstelle eine Zeitleiste der Verschlüsselung.
-* Erkläre EIN Verfahren detailliert mit Hands-On-Material.
-* Diskutiere: Warum wurde das Verfahren geknackt?
-
-### Option 2 – Kryptographie im Alltag
-
-* Analysiere die Sicherheit verschiedener Messenger (WhatsApp, Signal, Threema, iMessage, …).
-* Welche sind empfehlenswert? Wo lesen Unternehmen mit?
-* Erstelle eine **Sicherheits-Checkliste**.
-
-### Option 3 – Passwörter & Datensicherheit
-
-* Was macht ein **sicheres Passwort** aus?
-* „5 goldene Regeln für sichere Passwörter".
-* **Passwort-Manager** — wie funktionieren sie? Sind sie sicher?
-* Aktuelle Datenlecks und was wir daraus lernen können.
-
-### Option 4 – Steganographie
-
-* Unterschied **Verschlüsselung vs. Steganographie**.
-* 3–4 historische und moderne Methoden (unsichtbare Tinte, Mikropunkte, Bilder-Stego).
-* Praktisches Beispiel: Nachricht in Bild verstecken.
-* Wo wird Steganographie heute eingesetzt?
-
-### Option 5 – Verschlüsselung in der Grundschule
-
-* 3–5 konkrete Unterrichtsideen.
-* Ein Beispiel im Detail (z. B. „Geheimschriften-Werkstatt" oder „Codeknacker").
-* Welche Kompetenzen werden gefördert (inhaltlich und prozessbezogen)?
-
-### Option 6 – Quantencomputer und Kryptographie
-
-* Grundprinzipien von Quantencomputern.
-* Warum machen Quantencomputer asymmetrische Verfahren angreifbar?
-* Aktueller Stand der Technik — gibt es schon echte Quantencomputer?
-
----
-
-## Reflexionsaufgabe (Lerntagebuch)
-
-> Welche Erkenntnisse nimmst du aus der Beschäftigung mit Verschlüsselung im Hinblick auf **didaktische Potenziale** für den Mathematikunterricht mit? Wo siehst du **Möglichkeiten** und **Grenzen** eines Einsatzes in der Grundschule?
-
 ---
 
 # 12. Quellen, Tools & weiterführende Materialien
 
-## Interaktive Tools von Prof. Urff
+## Interaktive Tools
 
 * 🔗 [Caesar-Verschlüsselung](https://www.lernsoftware-mathematik.de/DiS/caesar.html)
 * 🔗 [Caesar knacken (Häufigkeitsanalyse)](https://www.lernsoftware-mathematik.de/DiS/caesarknacken.html)
 * 🔗 [Vigenère-Verfahren](https://www.lernsoftware-mathematik.de/DiS/vigenere.html)
 * 🔗 [RSA-Verfahren](https://www.lernsoftware-mathematik.de/DiS/rsa.html)
-
-## Weitere Tools
-
 * 🔗 [Vigenère knacken](https://oinf.ch/interactive/vigenere-verschluesselung-knacken/)
 
-## Veranstaltungshinweis
-
-* 🔗 [Tagung „Macht Mathe" — PH Weingarten](https://www.ph-weingarten.de/de/events/macht-mathe)
 
 ## Kontakt
 
 **Prof. Dr. Christian Urff**
 📧 christian.urff@ph-weingarten.de
 🏛 Pädagogische Hochschule Weingarten
-
----
-
-> **Vielen Dank fürs Mitmachen und Mitdenken! 🎉**
->
-> Bei Fragen wende dich gerne im Veranstaltungsforum in **Moodle** oder direkt in der nächsten Vorlesung an mich.
