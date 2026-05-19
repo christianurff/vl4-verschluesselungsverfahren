@@ -97,14 +97,13 @@ Welche der folgenden Alltagsanwendungen verwenden in der Regel **Verschlüsselun
 [[ ]] Klassische E-Mail (ohne Zusatztools)
 [[X]] Online-Banking
 [[ ]] Offene WLAN-Hotspots ohne Passwort
+[[?]] Klick auf das Fragezeichen für einen Tipp — denk an die Adresszeile und an Funkverbindungen.
 
-***
+    ***
 
-<div>
-**Erläuterung:** Standard-E-Mails werden auf vielen Strecken im Klartext übertragen — deshalb ist E-Mail erstaunlich unsicher. Offene WLANs ohne Passwort sind ebenfalls unverschlüsselt; alle Daten lassen sich potenziell mitlesen.
-</div>
+    **Erläuterung:** Standard-E-Mails werden auf vielen Strecken im Klartext übertragen — deshalb ist E-Mail erstaunlich unsicher. Offene WLANs ohne Passwort sind ebenfalls unverschlüsselt; alle Daten lassen sich potenziell mitlesen.
 
-***
+    ***
 
 ## Verständnisfrage 1.2
 
@@ -168,13 +167,11 @@ Welche Aussagen über das Alice–Bob–Max-Modell stimmen?
 [[ ]] Alice und Bob müssen sich nie über die verwendete Verschlüsselungsmethode einig sein.
 [[ ]] Wenn Max die Nachricht abfängt, ist die Kommunikation auf jeden Fall verloren.
 
-***
+    ***
 
-<div>
-**Erläuterung:** Selbst wenn Max die *verschlüsselte* Nachricht abfängt, kann er sie ohne Schlüssel nicht lesen. Alice und Bob müssen sich aber zumindest auf ein gemeinsames Verfahren (und meist auch einen Schlüssel) einigen.
-</div>
+    **Erläuterung:** Selbst wenn Max die *verschlüsselte* Nachricht abfängt, kann er sie ohne Schlüssel nicht lesen. Alice und Bob müssen sich aber zumindest auf ein gemeinsames Verfahren (und meist auch einen Schlüssel) einigen.
 
-***
+    ***
 
 ---
 
@@ -263,16 +260,27 @@ L → ?
 O → ?
 ```
 
-**Lösung:** [[PITTW]]
+[[PITTW]]
+[[?]] Wenn du über `Z` hinauskommst, beginne wieder bei `A` (modulo 26).
 
-<div>
-**Tipp:** Wenn du über `Z` hinauskommst, beginne wieder bei `A` (modulo 26).
-H(8)→P, A(0)→I, L(11)→T, L(11)→T, O(14)→W → **PITTW**
-</div>
+    ***
+
+    **Lösungsweg:** H(8)→P, A(0)→I, L(11)→T, L(11)→T, O(14)→W → **PITTW**
+
+    ***
 
 ## Interaktiv ausprobieren
 
-🔗 [Caesar-Tool von Prof. Urff](https://www.lernsoftware-mathematik.de/DiS/caesar.html) — Schlüssel ändern, Texte verschlüsseln/entschlüsseln direkt im Browser.
+Probiere das Caesar-Verfahren direkt im eingebetteten Tool aus — verschiebe den Schlüssel, gib Texte ein und schau, was passiert:
+
+<iframe src="https://www.lernsoftware-mathematik.de/DiS/caesar.html"
+        width="100%" height="650"
+        style="border: 1px solid #ccc; border-radius: 4px;"
+        loading="lazy"
+        title="Caesar-Verschlüsselung interaktiv">
+</iframe>
+
+🔗 Direktlink (im neuen Tab öffnen): [Caesar-Tool](https://www.lernsoftware-mathematik.de/DiS/caesar.html)
 
 ## Verständnisfrage 4
 
@@ -330,16 +338,29 @@ Entschlüssele folgende Caesar-Nachricht (aus dem Arbeitsblatt):
 XYWJSLLJMJNRJGTYXHMFKY
 ```
 
-🔗 Tool: [Häufigkeitsanalyse](https://www.lernsoftware-mathematik.de/DiS/caesarknacken.html)
+**Knacker-Tool direkt eingebettet** (Häufigkeitstabelle automatisch berechnet):
 
-**Lösung:** [[STRENGGEHEIMEBOTSCHAFT]]
+<iframe src="https://www.lernsoftware-mathematik.de/DiS/caesarknacken.html"
+        width="100%" height="650"
+        style="border: 1px solid #ccc; border-radius: 4px;"
+        loading="lazy"
+        title="Caesar knacken — Häufigkeitsanalyse">
+</iframe>
+
+🔗 Direktlink: [Caesar knacken](https://www.lernsoftware-mathematik.de/DiS/caesarknacken.html)
+
+**Trage deine Lösung ein:**
+[[STRENGGEHEIMEBOTSCHAFT]]
 <script>
-"@input".toUpperCase().replace(/\s/g,"") === "STRENGGEHEIMEBOTSCHAFT";
+"@input".toUpperCase().replace(/[\s\.\,]/g,"") === "STRENGGEHEIMEBOTSCHAFT";
 </script>
+[[?]] Suche im Geheimtext nach dem häufigsten Buchstaben — er entspricht in der deutschen Sprache wahrscheinlich dem `E`.
 
-<div>
-**Lösungsweg:** Die Verschiebung war **n = 5**. Aus `X` wird `S` (5 Stellen zurück), aus `Y` wird `T`, usw. Klartext: **STRENG GEHEIME BOTSCHAFT**.
-</div>
+    ***
+
+    **Lösungsweg:** Die Verschiebung war **n = 5**. Aus `X` wird `S` (5 Stellen zurück), aus `Y` wird `T`, usw. Klartext: **STRENG GEHEIME BOTSCHAFT**.
+
+    ***
 
 ## Verständnisfrage 5
 
@@ -404,7 +425,16 @@ D → Q
 
 **Beachte:** Das `E` im Klartext wird mal zu `S`, mal zu `I`, mal zu `I`. Die Häufigkeitsanalyse versagt — solange das Codewort unbekannt ist!
 
-🔗 [Vigenère-Tool](https://www.lernsoftware-mathematik.de/DiS/vigenere.html)
+### Vigenère interaktiv
+
+<iframe src="https://www.lernsoftware-mathematik.de/DiS/vigenere.html"
+        width="100%" height="650"
+        style="border: 1px solid #ccc; border-radius: 4px;"
+        loading="lazy"
+        title="Vigenère-Verschlüsselung interaktiv">
+</iframe>
+
+🔗 Direktlink: [Vigenère-Tool](https://www.lernsoftware-mathematik.de/DiS/vigenere.html)
 
 ## Wie wird Vigenère geknackt?
 
@@ -523,13 +553,11 @@ Warum ist der **Schlüsselaustausch** bei symmetrischen Verfahren ein Problem?
 [[ ]] Symmetrische Verfahren sind grundsätzlich mathematisch unsicher.
 [[ ]] Symmetrische Verschlüsselung funktioniert nur mit dem One-Time-Pad.
 
-***
+    ***
 
-<div>
-**Erläuterung:** Symmetrische Verfahren (insbesondere **AES**) sind sehr sicher und werden auch heute massenhaft eingesetzt — *aber* erst, nachdem mit Hilfe asymmetrischer Verfahren ein gemeinsamer Sitzungsschlüssel etabliert wurde. Das löst das Problem (siehe nächstes Kapitel).
-</div>
+    **Erläuterung:** Symmetrische Verfahren (insbesondere **AES**) sind sehr sicher und werden auch heute massenhaft eingesetzt — *aber* erst, nachdem mit Hilfe asymmetrischer Verfahren ein gemeinsamer Sitzungsschlüssel etabliert wurde. Das löst das Problem (siehe nächstes Kapitel).
 
-***
+    ***
 
 ---
 
@@ -594,7 +622,16 @@ Eine **Einwegfunktion** ist leicht zu berechnen, aber praktisch nicht umkehrbar.
 * Multiplikation: Sekundenbruchteile.
 * Umkehrung (Faktorisierung): Selbst Supercomputer brauchen **Jahre bis Jahrhunderte**.
 
-🔗 [RSA-Tool zum Selbst-Ausprobieren](https://www.lernsoftware-mathematik.de/DiS/rsa.html)
+### RSA interaktiv ausprobieren
+
+<iframe src="https://www.lernsoftware-mathematik.de/DiS/rsa.html"
+        width="100%" height="700"
+        style="border: 1px solid #ccc; border-radius: 4px;"
+        loading="lazy"
+        title="RSA-Verfahren interaktiv">
+</iframe>
+
+🔗 Direktlink: [RSA-Tool](https://www.lernsoftware-mathematik.de/DiS/rsa.html)
 
 ## Wo wird RSA / Asymmetrisches eingesetzt?
 
