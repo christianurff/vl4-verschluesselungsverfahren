@@ -24,13 +24,11 @@ attribute: Pädagogische Hochschule Weingarten
 
 # Die Mathematik der Verschlüsselung
 
-**Denken in Sachzusammenhängen — Vorlesung 4**
+**Denken in Sachzusammenhängen**
 
-> Prof. Dr. Christian Urff · WiSe 25/26 · PH Weingarten
+> Prof. Dr. Christian Urff · PH Weingarten
 
 Willkommen zum interaktiven Skript zur Vorlesung **„Die Mathematik der Verschlüsselung"**. Dieses Skript begleitet das aufgezeichnete Vorlesungsvideo — du bekommst zu jedem Thema einen **kurzen Video-Ausschnitt**, eine **kompakte Zusammenfassung**, **vertiefende Informationen** sowie **Verständnisfragen** zum Selbstcheck.
-
-![Titelfolie](slides/folie-01.png)
 
 ---
 
@@ -71,7 +69,7 @@ Verschlüsselung begegnet uns ständig — meist, ohne dass wir es bemerken. Sch
 * **Messenger:** WhatsApp, Signal, iMessage, Threema — alle nutzen Ende-zu-Ende-Verschlüsselung.
 * **Bezahlen:** EC-Karte, Apple Pay, Google Pay, Online-Banking — alles verschlüsselt.
 * **Login / Authentifizierung:** Jedes Mal, wenn du dich irgendwo anmeldest.
-* **WLAN:** Dein Heimnetz ist (hoffentlich!) WPA2/WPA3-verschlüsselt.
+* **WLAN:** Dein Heimnetz ist (hoffentlich!) WPA2/WPA3-verschlüsselt, also mit Passwort.
 
 ## Warum ist das so wichtig?
 
