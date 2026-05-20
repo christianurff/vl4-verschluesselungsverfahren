@@ -7,7 +7,7 @@ narrator: Deutsch Female
 
 comment:  Interaktives LiaScript-Skript zur Vorlesung
           "Denken in Sachzusammenhängen — Die Mathematik der Verschlüsselung"
-          (PH Weingarten, WiSe 25/26).
+          (PH Weingarten).
 
 logo:     slides/folie-01.png
 
