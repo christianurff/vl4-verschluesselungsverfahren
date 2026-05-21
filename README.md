@@ -59,7 +59,7 @@ Willkommen im interaktiven Skript zur Vorlesung „Die Mathematik der Verschlüs
 
 ## Worum es geht
 
-Verschlüsselung begegnet uns ständig — meist, ohne dass wir es bemerken. Schon das Aufrufen dieser Seite ist nur möglich, weil im Hintergrund Verschlüsselungsverfahren laufen.
+Verschlüsselung begegnet uns ständig und meist, ohne dass wir es bemerken. Schon das Aufrufen dieser Seite ist nur möglich, weil im Hintergrund Verschlüsselungsverfahren laufen.
 
 ![Wer hat heute schon verschlüsselt?](slides/folie-04.png)
 
@@ -99,7 +99,7 @@ Welche der folgenden Alltagsanwendungen verwenden in der Regel **Verschlüsselun
 
     ***
 
-    **Erläuterung:** Standard-E-Mails werden auf vielen Strecken im Klartext übertragen — deshalb ist E-Mail erstaunlich unsicher. Offene WLANs ohne Passwort sind ebenfalls unverschlüsselt; alle Daten lassen sich potenziell mitlesen.
+    **Erläuterung:** Standard-E-Mails werden auf vielen Strecken im Klartext übertragen. Deshalb ist E-Mail erstaunlich unsicher. Offene WLANs ohne Passwort sind ebenfalls unverschlüsselt. Alle Daten lassen sich potenziell mitlesen. Dies ist besonders bei öffentlichen WLAN-Zugängen (z.B. McDonalds, Kaufland, ...) problematisch.
 
     ***
 
